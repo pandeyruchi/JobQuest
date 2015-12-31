@@ -1,0 +1,367 @@
+.thing-form {
+  margin: 20px 0;
+}
+
+#banner {
+  border-bottom: none;
+  margin-top: -20px;
+}
+
+#banner h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.hero-unit {
+  position: relative;
+  padding: 30px 15px;
+  color: #F5F5F5;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background: #4393B9;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 70px;
+  border-top: 1px solid #E5E5E5;
+}
+
+.panel-heading h3 {
+  line-height: 1.5;
+}
+
+.blog-comment::before,
+.blog-comment::after,
+.blog-comment-form::before,
+.blog-comment-form::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blog-comment {
+
+}
+
+.blog-comment ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blog-comment img {
+  opacity: 1;
+  filter: Alpha(opacity=100);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.blog-comment img.avatar {
+  position: relative;
+  float: left;
+  margin-left: 0;
+  margin-top: 0;
+  width: 65px;
+  height: 65px;
+}
+
+.blog-comment .post-comments {
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+  margin-left: 85px;
+  margin-right: 0px;
+  padding: 10px 20px;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background: #fff;
+  color: #6b6e80;
+  position: relative;
+}
+
+.blog-comment .meta {
+  font-size: 13px;
+  color: #aaaaaa;
+  padding-bottom: 8px;
+  margin-bottom: 10px !important;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-comment ul.comments ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 85px;
+}
+
+.blog-comment-form {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 40px;
+}
+
+.blog-comment h3,
+.blog-comment-form h3 {
+  margin-bottom: 40px;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 800;
+}
+
+.panel-shadow {
+  box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+
+.panel-white {
+  border: 1px solid #dddddd;
+}
+
+.panel-white .panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.panel-white .panel-footer {
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.post .post-heading {
+  height: 95px;
+  padding: 20px 15px;
+}
+
+.post .post-heading .avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-right: 15px;
+}
+
+.post .post-heading .meta .title {
+  margin-bottom: 0;
+}
+
+.post .post-heading .meta .title a {
+  color: black;
+}
+
+.post .post-heading .meta .title a:hover {
+  color: #aaaaaa;
+}
+
+.post .post-heading .meta .time {
+  margin-top: 8px;
+  color: #999;
+}
+
+.post .post-image .image {
+  width: 100%;
+  height: auto;
+}
+
+.post .post-description {
+  padding: 15px;
+}
+
+.post .post-description p {
+  font-size: 14px;
+}
+
+.post .post-description .stats {
+  margin-top: 20px;
+}
+
+.post .post-description .stats .stat-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.post .post-description .stats .stat-item .icon {
+  margin-right: 8px;
+}
+
+.post .post-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+}
+
+.post .post-footer .input-group-addon a {
+  color: #454545;
+}
+
+.post .post-footer .comments-list {
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.post .post-footer .comments-list .comment {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.post .post-footer .comments-list .comment .avatar {
+  width: 35px;
+  height: 35px;
+}
+
+.post .post-footer .comments-list .comment .comment-heading {
+  display: block;
+  width: 100%;
+}
+
+.post .post-footer .comments-list .comment .comment-heading .user {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline;
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+.post .post-footer .comments-list .comment .comment-heading .time {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 0;
+  display: inline;
+}
+
+.post .post-footer .comments-list .comment .comment-body {
+  margin-left: 50px;
+}
+
+.post .post-footer .comments-list .comment > .comments-list {
+  margin-left: 50px;
+}
+
+body {
+  background: url('../../assets/images/bg.png');
+  font-family: 'Signika', sans-serif;
+}
+
+.work-class-heading {
+  border-bottom: 1px solid rgba(219, 39, 0, 0.45);
+  _padding-right: 500px;
+}
+
+.work-class-heading span {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1001px) {
+
+  #contact-wrapper #cw-line {
+    line-height: 3em;
+  }
+
+}
+
+#contact-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  font-size: 1em;
+  text-align: left
+}
+
+input, textarea {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ff9933;
+  padding: 5px;
+  width: auto;
+  font-size: 1em;
+  color: #ff9933;
+  line-height: initial;
+}
+
+div.selectBox {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+  text-align: left;
+  line-height: 30px;
+  clear: both;
+  color: #4d4d4d;
+  top: 10px;
+  left: 5px;
+}
+
+span.selectedOption {
+  width: 250px;
+  text-indent: 20px;
+  border-bottom: 1px solid #ff9933;
+  border-right: none;
+  overflow: hidden;
+}
+
+span.selectArrow {
+  width: 30px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  border: 1px solid #ff9933;
+}
+
+span.selectArrow, span.selectedOption {
+  position: relative;
+  float: left;
+  height: 32px;
+  z-index: 1;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+span.selectedOption {
+  border-left: 1px solid #ff9933;
+  border-top: 1px solid #ff9933;
+}
+
+div.selectOptions {
+  position: absolute;
+  z-index: 2;
+  top: 30px;
+  left: 0;
+  width: 280px;
+  overflow: hidden;
+  _background: #ff9933;
+  display: none;
+  margin-top: 2px;
+}
+
+.selectOptionsInnerWrap {
+  top: 0px;
+  position: relative;
+}
+
+span.selectOption {
+  display: block;
+  width: 100%;
+  line-height: 20px;
+  border-bottom: 1px solid #ff9933;
+  border-left: 10px solid #ff9933;
+  border-right: 10px solid #ff9933;
+  padding: 5px 10%;
+  font-size: 0.8em;
+  cursor: pointer;
+  background: #f6f6f6;
+}
+
+span.selectOption:hover {
+  color: #f9f9f9;
+  background: #ff9933;
+}
+

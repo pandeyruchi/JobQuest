@@ -1,0 +1,70 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-4 col-md-4">
+      <h4 class="text-center">Evaluate Offer</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-5">
+      <form>
+        <input class="form-control" style="margin: 5px" type="text" required ng-model="user.company"
+               placeholder="Company">
+        <input class="form-control" style="margin: 5px" type="text" required ng-model="user.experience"
+               placeholder="Total years of experience">
+        <select required ng-model="user.designation" style="margin: 5px" class="form-control"
+                ng-options="designation.title for designation in designations"></select>
+        <input required class="form-control" style="margin: 5px" type="text" ng-model="user.ctc" placeholder="CTC">
+        <input required type="text" placeholder="skills" class="form-control" style="margin: 5px">
+      </form>
+    </div>
+    <div class="col-md-offset-2 col-md-5">
+      <form>
+        <input required class="form-control" style="margin: 5px" type="text" ng-model="user.offered.company"
+               placeholder="Company">
+        <select required ng-model="user.offered.designation" style="margin: 5px" class="form-control"
+                ng-options="designation.title for designation in designations"></select>
+        <input required class="form-control" style="margin: 5px" type="text" ng-model="user.offered.ctc"
+               placeholder="CTC Offered">
+        <textarea required style="margin: 5px" class="form-control" ng-model="user.question"
+                  placeholder="Write a question"></textarea>
+      </form>
+    </div>
+  </div>
+  <div class="row">
+    <button style="margin: 5px" ng-click="post(user)" class="form-control btn-success">Evaluate Offer</button>
+  </div>
+ <!-- <div class="row">
+    <div class="col-md-12">
+      <div class="section" id="section-contact" style="display: block;">
+
+        <div class="para">
+
+          <div id="contact-heading" class="work-class-heading">
+            <span style="display: inline; opacity: 1;">Evaluate Offer</span>
+          </div>
+
+          <div id="contact-wrapper">
+
+            <div id="cw-line">
+              Hi, I am working with <input type="text" ng-model="user.company"> as <input type="text"
+                                                                                          ng-model="user.designation.title">.
+              My current ctc is <input type="text" ng-model="user.ctc">. Currently I have one offer in hand as <input
+              type="text" ng-model="user.offered.designation.title"> from <input type="text"
+                                                                                 ng-model="user.offered.company">
+              offering <input type="text" ng-model="user.offered.ctc"> as package.
+              <div id="submit">SEND</div>
+              <div class="pre-loader"></div>
+              <br><br>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>-->
+</div>
+
+
